@@ -54,8 +54,43 @@ Built with pure emotion, style, and a goal to empower every beginner and advance
 ### 🔥 Installation
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install git -y
-git clone https://github.com/<your-username>/Toolkit-0.2
-cd Toolkit-0.2
+
+# AANU Toolkit 0.3 - The Hacker’s Paradise
+
+**A powerful, modular, and beginner-friendly hacking toolkit for Termux.**  
+Designed with style, automation, and emotion for those who believe in magic.
+
+---
+
+## Features
+
+- Colorful animated UI
+- Root/non-root compatibility
+- Auto package & dependency setup
+- Categorized tools: Phishing, Cam Hacking, Info Gathering, etc.
+- Toolkit startup animations & login system
+- Secret modes, fake login, and AI God vibes
+
+---
+
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main_menu.png)
+
+### Phishing Module
+![Phishing Module](screenshots/phishing_tools.png)
+
+### Cam Hacking Tools
+![Cam Hacking](screenshots/cam_tools.png)
+
+---
+
+## Installation
+
+```bash
+pkg update && pkg upgrade
+pkg install git
+git clone https://github.com/SachinSolunke/Toolkit-0.3.git
+cd Toolkit-0.3
 bash run.sh

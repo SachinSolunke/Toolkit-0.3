@@ -60,16 +60,6 @@ git clone https://github.com/SachinSolunke/Toolkit-0.3.git
 cd Toolkit-0.3
 
 bash run.sh
-
-### ✅ ...
-
-<p align="center">
-  <img src="assets/logo.png" height="150"/>
-</p>
-
-<h1 align="center">AANU TOOLKIT 0.3</h1>
-<h3 align="center">The Hacker’s Paradise - Built for Beginners, Loved by Legends</h3>
-
 ---
 
 ## ✨ What's Inside

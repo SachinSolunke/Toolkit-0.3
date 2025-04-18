@@ -1,0 +1,19 @@
+# Get Location (City & Country using ip-api)
+get_location() {
+  location=$(curl -s http://ip-api.com/line/?fields=city,country | paste -sd ", " -)
+  echo "$location"
+}
+
+show_tool_info() {
+  clear
+  echo -e "${CYAN}┌──────────────────────────────────────────┐"
+  echo -e "${CYAN}│ ${YELLOW}Tool Name : ${GREEN}$1"
+  echo -e "${CYAN}│ ${YELLOW}Version   : ${GREEN}$2"
+  echo -e "${CYAN}│ ${YELLOW}Author    : ${GREEN}$3"
+  echo -e "${CYAN}│ ${YELLOW}Location  : ${GREEN}$(get_location)"
+  echo -e "${CYAN}│ ${YELLOW}GitHub    : ${GREEN}$4"
+  echo -e "${CYAN}│ ${YELLOW}YouTube   : ${GREEN}$5"
+  echo -e "${CYAN}│ ${YELLOW}Telegram  : ${GREEN}$6"
+  echo -e "${CYAN}└──────────────────────────────────────────┘"
+  sleep 2
+}
